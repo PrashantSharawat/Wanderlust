@@ -130,11 +130,6 @@ passport.deserializeUser(User.deserializeUser());
 
 
 
-//home page route
-app.get("/", (req, res) => {
-  res.send("Hi, I am root");
-});
-
 
 
 // // ----------joi validate --from server side  --ye function niche middlware ki thra aayega -->validateListing
